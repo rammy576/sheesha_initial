@@ -39,25 +39,11 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  gold:		  #e0bc75
+rgb(247, 245, 236):	    #e0bc75,
+white:    #ffffff,
 );
 
-.title_gold{
-    font-family: "brandon-grotesque",sans-serif;
-	margin-bottom: 20px !important;
-    font-size: 70px;
-    text-transform: uppercase;
-    font-weight: 100;
-    margin-bottom: 0;
-    line-height: 66px;
-    letter-spacing: 2px !important;
-    color: #e0bc75
-}
-
-.title_white{
-	font-family: "essonnes-display",sans-serif;
-	color: #fff !important;
-}
+$toolbar-background: #000000;
 
 
 // App iOS Variables

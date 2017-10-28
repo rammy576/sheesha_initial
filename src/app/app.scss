@@ -14,6 +14,11 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+$aladin-font: 'Aladin', cursive;
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
+$carrois-Gothic-SC-font: 'Carrois Gothic SC', sans-serif;
+
 video {
         position: fixed;
         top: 50%;
@@ -25,3 +30,39 @@ video {
         z-index: -100;
         transform: translateX(-50%) translateY(-50%);
     }   
+
+    
+.title_gold{
+    font-family: $carrois-Gothic-SC-font;
+	margin-bottom: 20px !important;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 0;
+    line-height: 66px;
+    letter-spacing: 2px !important;
+    color: #e0bc75
+}
+
+.title_white{
+	font-family: $aladin-font;
+	color: #fff !important;
+}
+
+.white-color{
+	color: #fff !important;
+}
+
+.color-gold{
+    color: #e0bc75
+}
+
+.margin-left-15{
+    margin-left: 20px;
+}
+
+.promotional-icon-logo{
+    color: #e0bc75;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
