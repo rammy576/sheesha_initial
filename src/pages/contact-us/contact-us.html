@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Contact</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-md-3 offset-md-4>
+          <h3 class="contact-title">CONTACT US</h3>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col col-md-3 offset-md-4>
+            <ion-list>
+                
+                  <ion-item class="ion-item">
+                    <ion-label floating>First Name</ion-label>
+                    <ion-input type="text"></ion-input>
+                  </ion-item>
+                
+                  <ion-item class="ion-item">
+                    <ion-label floating>Last Name</ion-label>
+                    <ion-input type="text"></ion-input>
+                  </ion-item>
+
+                  <ion-item class="ion-item">
+                    <ion-label floating>Email Address</ion-label>
+                    <ion-input type="text"></ion-input>
+                  </ion-item>
+
+                  <ion-item class="ion-item">
+                    <ion-label floating>Phone</ion-label>
+                    <ion-input type="text"></ion-input>
+                  </ion-item>
+
+                  <ion-item class="ion-item">
+                    <ion-label floating>Message</ion-label>
+                    <ion-textarea type="text"></ion-textarea>
+                  </ion-item>
+
+
+      <ion-row style="margin-top: 20px;">
+        <ion-col col-md-3 offset-md-4>
+          <button ion-button round outline [color]="danger">Submit</button>
+        </ion-col>
+      </ion-row>
+
+    </ion-list>
+        </ion-col>
+      </ion-row>
+
+      
+
+  </ion-grid>
+
+</ion-content>
